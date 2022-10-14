@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.jpg');
+}
+
+.content {
+    width: 1300px;
+    margin: auto;
+}
+
+.catalog {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    overflow: auto;
+}
+
+.catalog__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    width: calc(100%/5 - 20px);
+    margin-bottom: 70px;
+    background-color: white;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.name {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-overflow: ellipsis;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: blanchedalmond;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.pagination-sorting {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    height: 60px;
+    background-color: blanchedalmond;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 19px;
+    margin-left: 40px;
+    /* margin-top: 70px; */
+}
+
+.pagination__elem {
+    font-size: 17px;
+    margin: 0px 7px;
+}
+
+#prev {
+    margin-left: 0px;
+}
+
+.sorting {
+    margin-right: 40px;
+}
+
+.sorting__type-selector {
+    margin-top: 19px;
+    font-size: 17px;
+    border: none;
+    background: transparent;
+}
+
+.content__spinner {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-radius: 50%;
+    animation: 1s linear 0s normal none infinite running rot;
+}
+
+.content__loader {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

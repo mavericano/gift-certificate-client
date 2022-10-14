@@ -1,0 +1,90 @@
+
+.header__content {
+    /* padding-top: 25px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: blanchedalmond;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.header__logo {
+    margin-top: 18px;
+    font-family: Raleway;
+    font-size: 30px;
+}
+
+.header__logo-link {
+    text-decoration: none;
+    color:black;
+    display: flex;
+}
+
+.header__search {
+    margin-top: 18px;;
+}
+
+.header__search-bar {
+    width: 500px;
+    margin-left: 90px;
+    /*height: 20px;
+    padding: 6px;
+    border: none;
+    margin-top: 18px;
+    font-size: 17px; */
+
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+
+.header__search-button {
+    /* height: 20px;
+    padding: 6px;
+    margin-top: 18px;
+    height: 20px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer; */
+
+    float: right;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 6px;
+    /* padding: 6px 10px; */
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    align-items:flex-start
+}
+
+.header__menu-list {
+    margin-top: 24px;
+    display: flex;
+    list-style: none;
+}
+
+.menu-list__elem {
+    padding: 0 15px;
+}
+
+.menu-list__elem-link {
+    text-decoration: none;
+    color: black;
+}

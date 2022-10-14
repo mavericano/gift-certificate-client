@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.jpg') no-repeat;
+    background-position-y: -2500px;
+}
+
+.content {
+    width: 1300px;
+    margin: auto;
+}
+
+.cart {
+    margin-top: 70px;
+    background: blanchedalmond;
+    height: 780px;
+    padding-top: 10px;
+}
+
+.card {
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.card__creds {
+    /* background-color: blue; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.creds__thumbnail {
+    margin-left: 20px;
+    width: 160px;
+    height: 160px;
+    min-width: 160px;
+    min-height: 160px;
+}
+
+.price {
+    margin-right: 20px;
+}
+
+.cart__buttons {
+    margin: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    font-size: 18px;
+}
+
+.confirm-button {
+    background-color:mediumspringgreen;
+}
